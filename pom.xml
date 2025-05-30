@@ -126,6 +126,9 @@
                     </suiteXmlFiles>
 					<includes>
 						<include>**/TestRunnerHomePage.java</include>
+						<include>**/*Test.java</include>
+						<include>**/Test*.java</include>
+						<include>**/*TestCase.java</include>
 					</includes>
                 </configuration>
             </plugin>
