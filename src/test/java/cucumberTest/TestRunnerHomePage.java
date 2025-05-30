@@ -18,6 +18,6 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		"pretty","json:target/cucumber.json"
 })
-public class TestRunnerHomePage{
+public class TestRunnerHomePage  extends AbstractTestNGCucumberTests{
 
 }
