@@ -9,7 +9,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = "/Auto/cucumberPratice2023/PracticeAutoTest2023/src/test/resources/feature",
+		features = "src/test/resources/feature",
 		//glue = "/Auto/cucumberPratice2023/PracticeAutoTest2023/src/test/java/stepDefinition",
 		glue = "stepDefinition",
 		plugin = {
